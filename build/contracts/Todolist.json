@@ -1,0 +1,225 @@
+{
+  "contractName": "Todolist",
+  "abi": [
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "tastCount",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "metadata": "{\"compiler\":{\"version\":\"0.5.16+commit.9c3226ce\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"constant\":true,\"inputs\":[],\"name\":\"tastCount\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/C/Users/Lenovo/Blockchain/contracts/Todolist.sol\":\"Todolist\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/C/Users/Lenovo/Blockchain/contracts/Todolist.sol\":{\"keccak256\":\"0xa9a09bc3930a9c8ee13bdcbf9b44ca56969c72bfea2f7896d3de8fcf831de500\",\"urls\":[\"bzz-raw://83b51132a1d44f15e25205474c7f077844ea95fe0a983930afe2fabb0512f136\",\"dweb:/ipfs/QmduU95dQGd1GZieQArdkoABSv7XydYiV3EAp5JCHSq5oA\"]}},\"version\":1}",
+  "bytecode": "0x608060405260008055348015601357600080fd5b506084806100226000396000f3fe6080604052348015600f57600080fd5b506004361060285760003560e01c8063c878e87d14602d575b600080fd5b60336049565b6040518082815260200191505060405180910390f35b6000548156fea265627a7a723158204ca3b476c6d8d7d4d618fc5c0c5c0d670ab69b6ed003d0efe83b0a0807fb4e5a64736f6c63430005100032",
+  "deployedBytecode": "0x6080604052348015600f57600080fd5b506004361060285760003560e01c8063c878e87d14602d575b600080fd5b60336049565b6040518082815260200191505060405180910390f35b6000548156fea265627a7a723158204ca3b476c6d8d7d4d618fc5c0c5c0d670ab69b6ed003d0efe83b0a0807fb4e5a64736f6c63430005100032",
+  "sourceMap": "27:54:1:-;;;76:1;52:25;;27:54;8:9:-1;5:2;;;30:1;27;20:12;5:2;27:54:1;;;;;;;",
+  "deployedSourceMap": "27:54:1:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;27:54:1;;;;;;;;;;;;;;;;;;;52:25;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;:::o",
+  "source": "pragma solidity ^0.5.0;\r\n\r\ncontract Todolist {\r\n    uint public tastCount = 0;\r\n}",
+  "sourcePath": "C:/Users/Lenovo/Blockchain/contracts/Todolist.sol",
+  "ast": {
+    "absolutePath": "/C/Users/Lenovo/Blockchain/contracts/Todolist.sol",
+    "exportedSymbols": {
+      "Todolist": [
+        49
+      ]
+    },
+    "id": 50,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 45,
+        "literals": [
+          "solidity",
+          "^",
+          "0.5",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:23:1"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 49,
+        "linearizedBaseContracts": [
+          49
+        ],
+        "name": "Todolist",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "constant": false,
+            "id": 48,
+            "name": "tastCount",
+            "nodeType": "VariableDeclaration",
+            "scope": 49,
+            "src": "52:25:1",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_uint256",
+              "typeString": "uint256"
+            },
+            "typeName": {
+              "id": 46,
+              "name": "uint",
+              "nodeType": "ElementaryTypeName",
+              "src": "52:4:1",
+              "typeDescriptions": {
+                "typeIdentifier": "t_uint256",
+                "typeString": "uint256"
+              }
+            },
+            "value": {
+              "argumentTypes": null,
+              "hexValue": "30",
+              "id": 47,
+              "isConstant": false,
+              "isLValue": false,
+              "isPure": true,
+              "kind": "number",
+              "lValueRequested": false,
+              "nodeType": "Literal",
+              "src": "76:1:1",
+              "subdenomination": null,
+              "typeDescriptions": {
+                "typeIdentifier": "t_rational_0_by_1",
+                "typeString": "int_const 0"
+              },
+              "value": "0"
+            },
+            "visibility": "public"
+          }
+        ],
+        "scope": 50,
+        "src": "27:54:1"
+      }
+    ],
+    "src": "0:81:1"
+  },
+  "legacyAST": {
+    "attributes": {
+      "absolutePath": "/C/Users/Lenovo/Blockchain/contracts/Todolist.sol",
+      "exportedSymbols": {
+        "Todolist": [
+          49
+        ]
+      }
+    },
+    "children": [
+      {
+        "attributes": {
+          "literals": [
+            "solidity",
+            "^",
+            "0.5",
+            ".0"
+          ]
+        },
+        "id": 45,
+        "name": "PragmaDirective",
+        "src": "0:23:1"
+      },
+      {
+        "attributes": {
+          "baseContracts": [
+            null
+          ],
+          "contractDependencies": [
+            null
+          ],
+          "contractKind": "contract",
+          "documentation": null,
+          "fullyImplemented": true,
+          "linearizedBaseContracts": [
+            49
+          ],
+          "name": "Todolist",
+          "scope": 50
+        },
+        "children": [
+          {
+            "attributes": {
+              "constant": false,
+              "name": "tastCount",
+              "scope": 49,
+              "stateVariable": true,
+              "storageLocation": "default",
+              "type": "uint256",
+              "visibility": "public"
+            },
+            "children": [
+              {
+                "attributes": {
+                  "name": "uint",
+                  "type": "uint256"
+                },
+                "id": 46,
+                "name": "ElementaryTypeName",
+                "src": "52:4:1"
+              },
+              {
+                "attributes": {
+                  "argumentTypes": null,
+                  "hexvalue": "30",
+                  "isConstant": false,
+                  "isLValue": false,
+                  "isPure": true,
+                  "lValueRequested": false,
+                  "subdenomination": null,
+                  "token": "number",
+                  "type": "int_const 0",
+                  "value": "0"
+                },
+                "id": 47,
+                "name": "Literal",
+                "src": "76:1:1"
+              }
+            ],
+            "id": 48,
+            "name": "VariableDeclaration",
+            "src": "52:25:1"
+          }
+        ],
+        "id": 49,
+        "name": "ContractDefinition",
+        "src": "27:54:1"
+      }
+    ],
+    "id": 50,
+    "name": "SourceUnit",
+    "src": "0:81:1"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.5.16+commit.9c3226ce.Emscripten.clang"
+  },
+  "networks": {
+    "5777": {
+      "events": {},
+      "links": {},
+      "address": "0x97c7c1005b58b2063cFEcD5f1DDAE4140f188eb2",
+      "transactionHash": "0xf5a4b9aed40b2af6ef0067a9b383d59601d3f4d1b5f7587e9a57c689548d66b5"
+    }
+  },
+  "schemaVersion": "3.4.1",
+  "updatedAt": "2021-07-20T16:54:37.072Z",
+  "networkType": "ethereum",
+  "devdoc": {
+    "methods": {}
+  },
+  "userdoc": {
+    "methods": {}
+  }
+}
