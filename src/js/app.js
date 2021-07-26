@@ -62,6 +62,7 @@ App = {
 
     // Hydrate the smart contract with values from the blockchain
     App.todoList = await App.contracts.TodoList.deployed();
+    // console.log(todoList);
   },
 
   render: async () => {
