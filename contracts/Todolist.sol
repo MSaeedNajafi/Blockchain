@@ -23,7 +23,6 @@ contract Todolist {
     );
 
     constructor() public {
-        createTask("contact Laywer");
     }
 
     function createTask(string memory _content) public {
